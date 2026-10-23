@@ -1,0 +1,4 @@
+-keep class org.schabi.newpipe.extractor.** { *; }
+-keep class org.ocpsoft.prettytime.** { *; }
+-keepattributes *Annotation*
+-dontwarn org.mozilla.javascript.**
